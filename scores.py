@@ -1,8 +1,4 @@
-scores=[]
-print("Enter 4 scores:")
-for i in range(4):
-  s=int (input(f"Scores {i+1}: "))
-  scores.append(s)
+scores=[90,85,78,58]
 total=sum(scores)
 average=total/4
 largest=max(scores)
