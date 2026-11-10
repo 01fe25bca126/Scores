@@ -5,6 +5,10 @@ for i in range(4):
   scores.append(s)
 total=sum(scores)
 average=total/4
+largest=max(scores)
+smallest=min(scores)
 print("\nScores:",scores)
 print("Total:",total)
 print("Average:",average)
+print("largest:",largest)
+print("smallest:",smallest)
